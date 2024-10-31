@@ -201,13 +201,16 @@ except ValueError as e:
 
 feature_importance = pd.read_csv('feature_importance1.csv')
 
+# Sort the DataFrame by 'Importance' in descending order
+sorted_features = feature_importance.sort_values(by='Importance', ascending=False).head(20)
+
 # Create a bar chart with plotly
-fig = px.bar(feature_importance.head(20), 
-             x='Importance', 
-             y='Feature', 
-             title='Top 20 Features Affecting Classification',
-             color='Importance',  # Color based on Importance
-             color_continuous_scale='Blues')  # Choose a color scale
+fig = px.bar(sorted_features, 
+              x='Importance', 
+              y='Feature', 
+              title='Top 20 Features Affecting Classification',
+              color='Importance',  # Color based on Importance
+              color_continuous_scale=''Viridis'')  # Choose a color scale
 
 # Show the plot in Streamlit
 st.subheader('Top 20 Features Affecting Classification')
