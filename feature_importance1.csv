@@ -1,0 +1,38 @@
+Feature,Importance
+Residential Status - Owns Residence,0.46144897
+Other Credits - Available,0.1220839
+Housing,0.09462545
+Credit Approval Status,0.032444566
+Credit Amount Requested,0.031904537
+Occupation - Professional/Executive,0.02519973
+Occupation - Skilled Labor,0.022291815
+Marital Status/Family - Married with Children,0.021794202
+Income,0.020617008
+Education Level - High School,0.020408021
+Employment Status - Private Sector,0.01871768
+Marital Status/Family - Cohabiting,0.017874392
+Education Level - University,0.015760738
+Occupation - Semi-Skilled Labor,0.012956924
+Occupation - Unskilled Labor,0.010385049
+Age,0.009014719
+Debt,0.008778763
+Occupation - Management,0.007911585
+Marital Status/Family - Single without Children,0.0075076823
+Occupation - Clerical,0.006511469
+Occupation - Sales,0.0059075286
+Number of Dependents - One,0.0056435675
+Gender - Male,0.005282234
+Occupation - Service Industry,0.0046892418
+Job Type,0.0044160234
+Occupation - Agriculture,0.0026916391
+Occupation - Manufacturing,0.0016084297
+Occupation - Defense,0.0007649777
+Marital Status/Family - Widowed,0.0007591055
+Occupation - Retired,0.0
+Marital Status/Family - Separated,0.0
+Occupation - Journalism/Media,0.0
+Marital Status/Family - Single with Children,0.0
+Marital Status/Family - Divorced,0.0
+Marital Status/Family - Other,0.0
+Employment Status - Self-Employed,0.0
+Number of Dependents - More than One,0.0
