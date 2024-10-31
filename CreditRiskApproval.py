@@ -210,7 +210,7 @@ fig = px.bar(sorted_features,
               y='Feature', 
               title='Top 20 Features Affecting Classification',
               color='Importance',  # Color based on Importance
-              color_continuous_scale=''Viridis'')  # Choose a color scale
+              color_continuous_scale='Viridis')  # Choose a color scale
 
 # Show the plot in Streamlit
 st.subheader('Top 20 Features Affecting Classification')
