@@ -1,7 +1,9 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import plotly.express as px
 
 # Load model
 model = joblib.load('risk_model_xgboost.pkl')
@@ -196,3 +198,17 @@ try:
     st.write(f"Probability of High Risk: {prediction_proba[0][1]:.2f}")
 except ValueError as e:
     st.write(f"Error in prediction: {e}. Please ensure inputs match model expectations.")
+
+feature_importance = pd.read_csv('feature_importance1.csv')
+
+# Create a bar chart with plotly
+fig = px.bar(feature_importance.head(20), 
+             x='Importance', 
+             y='Feature', 
+             title='Top 20 Features Affecting Classification',
+             color='Importance',  # Color based on Importance
+             color_continuous_scale='Blues')  # Choose a color scale
+
+# Show the plot in Streamlit
+st.subheader('Top 20 Features Affecting Classification')
+st.plotly_chart(fig)
