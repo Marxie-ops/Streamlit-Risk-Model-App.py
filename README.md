@@ -27,7 +27,7 @@ streamlit run app.py
 
 ## **Model Details**
 The model was trained on a publicly available dataset and optimized using feature engineering techniques and hyperparameter tuning.
-Key features include income, loan amount, credit history, and debt-to-income ratio.
+Key features include income, loan amount, credit history, and debt-to-income ratio.Model app link [https://app-risk-model-apppy-m4lbnbr2fwnal6ynldef8u.streamlit.app/](url)
 
 ## **Usage**
 Step 1: Input borrower information into the app.
