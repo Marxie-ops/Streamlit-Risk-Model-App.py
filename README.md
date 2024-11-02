@@ -31,5 +31,7 @@ Key features include income, loan amount, credit history, and debt-to-income rat
 
 ## **Usage**
 Step 1: Input borrower information into the app.
+
 Step 2: Predicts automatically hence receive a classification result.
+
 Step 3: Review the feature importance visualization to understand key factors in the prediction.
